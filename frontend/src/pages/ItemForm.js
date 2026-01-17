@@ -33,8 +33,7 @@ const ItemForm = () => {
     quantity: '1',
     tags: '',
     location: '',
-    lat: '',
-    lng: ''
+    coordinates: null
   });
   const [errors, setErrors] = useState({});
 
