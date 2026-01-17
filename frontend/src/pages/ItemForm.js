@@ -272,7 +272,7 @@ const ItemForm = () => {
         </div>
 
         <div>
-          <Label htmlFor="location" className="font-mono text-xs uppercase tracking-wider">Location</Label>
+          <Label htmlFor="location" className="font-mono text-xs uppercase tracking-wider">Location (City, State)</Label>
           <Input
             id="location"
             value={formData.location}
@@ -282,32 +282,11 @@ const ItemForm = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <Label htmlFor="lat" className="font-mono text-xs uppercase tracking-wider">Latitude (Optional)</Label>
-            <Input
-              id="lat"
-              type="number"
-              step="any"
-              value={formData.lat}
-              onChange={(e) => handleChange('lat', e.target.value)}
-              placeholder="34.0522"
-              data-testid="lat-input"
-            />
-          </div>
-          <div>
-            <Label htmlFor="lng" className="font-mono text-xs uppercase tracking-wider">Longitude (Optional)</Label>
-            <Input
-              id="lng"
-              type="number"
-              step="any"
-              value={formData.lng}
-              onChange={(e) => handleChange('lng', e.target.value)}
-              placeholder="-118.2437"
-              data-testid="lng-input"
-            />
-          </div>
-        </div>
+        <InteractiveLocationPicker
+          coordinates={formData.coordinates}
+          onCoordinatesChange={(coords) => handleChange('coordinates', coords)}
+          location={formData.location}
+        />
 
         <div className="flex gap-4 pt-4">
           <Button type="submit" disabled={loading} data-testid="submit-button">
