@@ -84,8 +84,16 @@ const ItemModal = ({ item, onClose }) => {
 
               {item.location && (
                 <div>
-                  <span className="font-mono text-xs font-bold tracking-widest uppercase text-muted-foreground block mb-1">Location</span>
-                  <p className="font-sans text-base" data-testid="modal-item-location">{item.location}</p>
+                  <span className="font-mono text-xs font-bold tracking-widest uppercase text-muted-foreground block mb-1 flex items-center gap-1">
+                    <MapPin className="h-3 w-3" />
+                    Location
+                  </span>
+                  <p className="font-sans text-base mb-2" data-testid="modal-item-location">{item.location}</p>
+                  <LocationMap 
+                    coordinates={item.coordinates} 
+                    location={item.location} 
+                    title={item.title}
+                  />
                 </div>
               )}
 
