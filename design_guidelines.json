@@ -1,0 +1,151 @@
+{
+  "identity": {
+    "persona": "E1: The Anti-AI Designer",
+    "philosophy": "Fusion over Imitation. Emotion First. Content is King.",
+    "archetype": "The Performance Pro (Industrial Precision)",
+    "vibe": "Mechanical, Raw, High-Fidelity, Spec-Sheet Aesthetic"
+  },
+  "typography": {
+    "font_family": {
+      "headings": "JetBrains Mono, monospace",
+      "body": "Inter, sans-serif",
+      "accent": "Chivo, sans-serif"
+    },
+    "import_instruction": "Import fonts from Google Fonts: https://fonts.googleapis.com/css2?family=Chivo:wght@400;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap",
+    "usage": {
+      "h1": "font-mono text-4xl md:text-6xl font-bold tracking-tighter uppercase",
+      "h2": "font-mono text-3xl md:text-4xl font-bold tracking-tight uppercase",
+      "h3": "font-mono text-xl md:text-2xl font-medium tracking-tight",
+      "body": "font-sans text-base leading-relaxed text-muted-foreground",
+      "label": "font-mono text-xs font-bold tracking-widest uppercase text-muted-foreground",
+      "price": "font-mono text-lg font-bold tracking-tight"
+    }
+  },
+  "colors": {
+    "theme": "Monochrome Industrial",
+    "palette": {
+      "light": {
+        "background": "#FFFFFF",
+        "foreground": "#09090B",
+        "card": "#FFFFFF",
+        "card_foreground": "#09090B",
+        "primary": "#09090B",
+        "primary_foreground": "#FAFAFA",
+        "secondary": "#F4F4F5",
+        "secondary_foreground": "#18181B",
+        "muted": "#F4F4F5",
+        "muted_foreground": "#71717A",
+        "accent": "#F4F4F5",
+        "accent_foreground": "#18181B",
+        "destructive": "#EF4444",
+        "destructive_foreground": "#FAFAFA",
+        "border": "#E4E4E7",
+        "input": "#E4E4E7",
+        "ring": "#09090B"
+      },
+      "dark": {
+        "background": "#09090B",
+        "foreground": "#FAFAFA",
+        "card": "#09090B",
+        "card_foreground": "#FAFAFA",
+        "primary": "#FAFAFA",
+        "primary_foreground": "#09090B",
+        "secondary": "#27272A",
+        "secondary_foreground": "#FAFAFA",
+        "muted": "#27272A",
+        "muted_foreground": "#A1A1AA",
+        "accent": "#27272A",
+        "accent_foreground": "#FAFAFA",
+        "destructive": "#7F1D1D",
+        "destructive_foreground": "#FAFAFA",
+        "border": "#27272A",
+        "input": "#27272A",
+        "ring": "#D4D4D8"
+      }
+    },
+    "rules": [
+      "NO gradients.",
+      "NO soft shadows. Use hard borders or very subtle ambient occlusion.",
+      "Contrast is key. Black on White. White on Black."
+    ]
+  },
+  "layout": {
+    "spacing": {
+      "container_padding": "px-4 md:px-8 lg:px-12",
+      "section_gap": "py-16 md:py-24",
+      "grid_gap": "gap-4 md:gap-8"
+    },
+    "grid_systems": {
+      "product_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10",
+      "bento_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4",
+      "dashboard_grid": "grid grid-cols-1 md:grid-cols-12 gap-6"
+    },
+    "border_radius": {
+      "default": "rounded-none",
+      "button": "rounded-none",
+      "card": "rounded-none",
+      "input": "rounded-none"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-none font-mono uppercase tracking-wider text-sm transition-all active:scale-95",
+      "secondary": "bg-secondary text-secondary-foreground hover:bg-secondary/80 h-12 px-8 rounded-none font-mono uppercase tracking-wider text-sm",
+      "outline": "border-2 border-primary bg-transparent hover:bg-primary hover:text-primary-foreground h-12 px-8 rounded-none font-mono uppercase tracking-wider text-sm"
+    },
+    "cards": {
+      "product": "group relative border border-border bg-card hover:border-primary transition-colors duration-300",
+      "dashboard": "border border-border bg-card p-6"
+    },
+    "inputs": {
+      "default": "h-12 rounded-none border-border bg-background px-4 font-sans focus-visible:ring-1 focus-visible:ring-primary"
+    },
+    "badges": {
+      "default": "rounded-none border-transparent bg-primary text-primary-foreground hover:bg-primary/80 font-mono uppercase text-[10px] tracking-widest px-2 py-1"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1640556795357-71d4078d6228?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "category_brakes": "https://images.unsplash.com/photo-1763087978864-fe5b2778c9f7?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "category_engine": "https://images.unsplash.com/photo-1746739589670-55847b83fc93?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "category_lights": "https://images.unsplash.com/photo-1760087282447-d8511ee4b2ce?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "category_wheels": "https://images.unsplash.com/photo-1760339260200-002e0803a5b1?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "mechanic_service": "https://images.unsplash.com/photo-1708745427274-d5de5122fd57?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "placeholder_part": "https://images.unsplash.com/photo-1588294020274-1e23a4815b72?crop=entropy&cs=srgb&fm=jpg&q=85"
+    },
+    "icons": "Use lucide-react. Prefer technical icons: Settings, Wrench, Disc, Zap, Activity, Box, Grid, List."
+  },
+  "pages": {
+    "home": {
+      "strategy": "Impactful Hero. Large typography. 'Spec-sheet' layout for featured items.",
+      "sections": [
+        "Hero: Full width image with heavy overlay. H1 in JetBrains Mono.",
+        "Categories: Grid of 4 items. High contrast.",
+        "Featured Parts: Horizontal scroll or grid. Minimal cards."
+      ]
+    },
+    "browse": {
+      "strategy": "Utility first. Sidebar filters (sticky). Clean grid.",
+      "layout": "Sidebar (w-64) + Grid (flex-1)."
+    },
+    "product_detail": {
+      "strategy": "Split screen. Left: Image (sticky). Right: Details (scroll).",
+      "features": "Big 'Add to Cart' button. Technical specs table."
+    },
+    "admin": {
+      "strategy": "High density. Data-heavy. No fluff.",
+      "layout": "Sidebar nav. Dashboard widgets in bento grid."
+    }
+  },
+  "universal_guidelines": [
+    "DO NOT use rounded corners > 2px. This is a machine shop, not a candy store.",
+    "DO NOT use gradients. Flat colors only.",
+    "Use 'JetBrains Mono' for all numbers, prices, and technical specs.",
+    "Use 'Inter' for long-form descriptions.",
+    "Animations should be fast (0.2s) and linear or ease-out. No bouncy springs.",
+    "All interactive elements must have a hover state (underline, color invert, or border darken).",
+    "Use 'sonner' for toasts.",
+    "Use 'lucide-react' for icons."
+  ]
+}
