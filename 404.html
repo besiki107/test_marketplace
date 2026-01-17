@@ -2,9 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="refresh" content="0; url=/test_marketplace/" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Redirecting...</title>
+    <script type="text/javascript">
+      (function () {
+        var segmentCount = 1;
+        var l = window.location;
+        var path = l.pathname.split('/').slice(0, 1 + segmentCount).join('/');
+        var rest = l.pathname.split('/').slice(1 + segmentCount).join('/');
+        var search = l.search.replace(/&/g, '~and~');
+        l.replace(l.protocol + '//' + l.host + path + '/?/' + rest + search + l.hash);
+      })();
+    </script>
   </head>
   <body>
     <p>Redirecting...</p>
