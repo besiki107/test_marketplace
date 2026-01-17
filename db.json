@@ -9,7 +9,11 @@
       "image": "https://images.unsplash.com/photo-1763087978864-fe5b2778c9f7?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 15,
-      "tags": ["brakes", "performance", "ceramic"],
+      "tags": [
+        "brakes",
+        "performance",
+        "ceramic"
+      ],
       "location": "Los Angeles, CA",
       "createdAt": "2025-01-10T10:00:00.000Z"
     },
@@ -22,7 +26,11 @@
       "image": "https://images.unsplash.com/photo-1760087282447-d8511ee4b2ce?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 8,
-      "tags": ["lighting", "LED", "headlights"],
+      "tags": [
+        "lighting",
+        "LED",
+        "headlights"
+      ],
       "location": "Chicago, IL",
       "createdAt": "2025-01-09T14:30:00.000Z"
     },
@@ -35,7 +43,11 @@
       "image": "https://images.unsplash.com/photo-1746739589670-55847b83fc93?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 25,
-      "tags": ["engine", "filter", "performance"],
+      "tags": [
+        "engine",
+        "filter",
+        "performance"
+      ],
       "location": "Houston, TX",
       "createdAt": "2025-01-08T09:15:00.000Z"
     },
@@ -48,7 +60,11 @@
       "image": "https://images.unsplash.com/photo-1588294020274-1e23a4815b72?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 12,
-      "tags": ["engine", "spark plugs", "performance"],
+      "tags": [
+        "engine",
+        "spark plugs",
+        "performance"
+      ],
       "location": "Miami, FL",
       "createdAt": "2025-01-07T16:45:00.000Z"
     },
@@ -61,7 +77,11 @@
       "image": "https://images.unsplash.com/photo-1760339260200-002e0803a5b1?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 6,
-      "tags": ["wheels", "alloy", "18 inch"],
+      "tags": [
+        "wheels",
+        "alloy",
+        "18 inch"
+      ],
       "location": "Dallas, TX",
       "createdAt": "2025-01-06T11:20:00.000Z"
     },
@@ -74,7 +94,11 @@
       "image": "https://images.unsplash.com/photo-1640556795357-71d4078d6228?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 4,
-      "tags": ["exhaust", "performance", "stainless steel"],
+      "tags": [
+        "exhaust",
+        "performance",
+        "stainless steel"
+      ],
       "location": "Phoenix, AZ",
       "createdAt": "2025-01-05T13:00:00.000Z"
     },
@@ -87,7 +111,11 @@
       "image": "https://images.unsplash.com/photo-1708745427274-d5de5122fd57?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 10,
-      "tags": ["electrical", "battery", "AGM"],
+      "tags": [
+        "electrical",
+        "battery",
+        "AGM"
+      ],
       "location": "Seattle, WA",
       "createdAt": "2025-01-04T08:30:00.000Z"
     },
@@ -100,7 +128,11 @@
       "image": "https://images.unsplash.com/photo-1588294020274-1e23a4815b72?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 50,
-      "tags": ["engine", "oil filter", "maintenance"],
+      "tags": [
+        "engine",
+        "oil filter",
+        "maintenance"
+      ],
       "location": "Portland, OR",
       "createdAt": "2025-01-03T15:45:00.000Z"
     },
@@ -113,7 +145,11 @@
       "image": "https://images.unsplash.com/photo-1763087978864-fe5b2778c9f7?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 8,
-      "tags": ["brakes", "rotors", "performance"],
+      "tags": [
+        "brakes",
+        "rotors",
+        "performance"
+      ],
       "location": "Boston, MA",
       "createdAt": "2025-01-02T10:15:00.000Z"
     },
@@ -126,7 +162,11 @@
       "image": "https://images.unsplash.com/photo-1760087282447-d8511ee4b2ce?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 5,
-      "tags": ["lighting", "tail lights", "LED"],
+      "tags": [
+        "lighting",
+        "tail lights",
+        "LED"
+      ],
       "location": "Denver, CO",
       "createdAt": "2025-01-01T12:00:00.000Z"
     },
@@ -139,7 +179,11 @@
       "image": "https://images.unsplash.com/photo-1746739589670-55847b83fc93?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 7,
-      "tags": ["engine", "fuel system", "injectors"],
+      "tags": [
+        "engine",
+        "fuel system",
+        "injectors"
+      ],
       "location": "Atlanta, GA",
       "createdAt": "2024-12-31T14:30:00.000Z"
     },
@@ -152,7 +196,11 @@
       "image": "https://images.unsplash.com/photo-1640556795357-71d4078d6228?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 6,
-      "tags": ["suspension", "springs", "lowering"],
+      "tags": [
+        "suspension",
+        "springs",
+        "lowering"
+      ],
       "location": "San Diego, CA",
       "createdAt": "2024-12-30T09:00:00.000Z"
     },
@@ -165,7 +213,11 @@
       "image": "https://images.unsplash.com/photo-1588294020274-1e23a4815b72?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 2,
-      "tags": ["body", "carbon fiber", "hood"],
+      "tags": [
+        "body",
+        "carbon fiber",
+        "hood"
+      ],
       "location": "Las Vegas, NV",
       "createdAt": "2024-12-29T16:20:00.000Z"
     },
@@ -178,7 +230,11 @@
       "image": "https://images.unsplash.com/photo-1746739589670-55847b83fc93?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 3,
-      "tags": ["engine", "turbo", "performance"],
+      "tags": [
+        "engine",
+        "turbo",
+        "performance"
+      ],
       "location": "Austin, TX",
       "createdAt": "2024-12-28T11:45:00.000Z"
     },
@@ -191,9 +247,45 @@
       "image": "https://images.unsplash.com/photo-1708745427274-d5de5122fd57?crop=entropy&cs=srgb&fm=jpg&q=85&w=600",
       "condition": "new",
       "quantity": 4,
-      "tags": ["interior", "seats", "racing"],
+      "tags": [
+        "interior",
+        "seats",
+        "racing"
+      ],
       "location": "Minneapolis, MN",
       "createdAt": "2024-12-27T13:10:00.000Z"
+    },
+    {
+      "id": "1f5c",
+      "title": "Test Brake Caliper",
+      "price": 199.99,
+      "category": "Brakes",
+      "description": "High-performance brake caliper for testing purposes. This description is longer than 10 characters.",
+      "image": "https://example.com/test-image.jpg",
+      "condition": "new",
+      "quantity": 5,
+      "tags": [
+        "test",
+        "brakes"
+      ],
+      "location": "Test City, TS",
+      "createdAt": "2026-01-17T14:58:54.323689"
+    },
+    {
+      "title": "Updated Test Item",
+      "price": 299.99,
+      "category": "Engine",
+      "description": "Updated description for testing purposes. This is definitely longer than 10 characters.",
+      "image": "https://example.com/updated-image.jpg",
+      "condition": "used",
+      "quantity": 3,
+      "tags": [
+        "updated",
+        "test"
+      ],
+      "location": "Updated City, UC",
+      "createdAt": "2026-01-17T14:58:54.327109",
+      "id": "a292"
     }
   ]
 }
