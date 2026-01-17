@@ -256,12 +256,11 @@
       "createdAt": "2024-12-27T13:10:00.000Z"
     },
     {
-      "id": "1f5c",
       "title": "Test Brake Caliper",
       "price": 199.99,
       "category": "Brakes",
       "description": "High-performance brake caliper for testing purposes. This description is longer than 10 characters.",
-      "image": "https://example.com/test-image.jpg",
+      "image": "https://i.ytimg.com/vi/uefydJUbRhc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBWXzK_RUlsFIRUC5ac32gfxhPN3Q",
       "condition": "new",
       "quantity": 5,
       "tags": [
@@ -269,14 +268,15 @@
         "brakes"
       ],
       "location": "Test City, TS",
-      "createdAt": "2026-01-17T14:58:54.323689"
+      "createdAt": "2026-01-17T17:44:17.330Z",
+      "id": "1f5c"
     },
     {
       "title": "Updated Test Item",
       "price": 299.99,
       "category": "Engine",
       "description": "Updated description for testing purposes. This is definitely longer than 10 characters.",
-      "image": "https://example.com/updated-image.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShotJ__n60_cPD9nVWWJdzqYyZaReiNkd-Ng&s",
       "condition": "used",
       "quantity": 3,
       "tags": [
@@ -284,7 +284,7 @@
         "test"
       ],
       "location": "Updated City, UC",
-      "createdAt": "2026-01-17T14:58:54.327109",
+      "createdAt": "2026-01-17T17:44:55.101Z",
       "id": "a292"
     }
   ]
