@@ -1,7 +1,8 @@
 import React from 'react';
-import { X, Heart } from 'lucide-react';
+import { X, Heart, MapPin } from 'lucide-react';
 import { Button } from './ui/button';
 import { useFavorites } from '../context/FavoritesContext';
+import LocationMap from './LocationMap';
 
 const ItemModal = ({ item, onClose }) => {
   const { isFavorite, toggleFavorite } = useFavorites();
