@@ -14,7 +14,11 @@
         "ceramic"
       ],
       "location": "Los Angeles, CA",
-      "createdAt": "2026-01-17T17:55:51.542Z",
+      "coordinates": {
+        "lat": 41.779520708197246,
+        "lng": 44.76420418571771
+      },
+      "createdAt": "2026-01-17T18:06:33.465Z",
       "id": "1"
     },
     {
