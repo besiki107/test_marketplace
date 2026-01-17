@@ -61,7 +61,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "server": "json-server --watch db.json --port 3001",
+    "server": "json-server --watch ../db.json --port 3001",
     "dev": "concurrently \"yarn start\" \"yarn server\""
   },
   "browserslist": {
