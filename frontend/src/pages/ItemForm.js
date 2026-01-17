@@ -58,8 +58,7 @@ const ItemForm = () => {
         quantity: item.quantity.toString(),
         tags: item.tags?.join(', ') || '',
         location: item.location || '',
-        lat: item.coordinates?.lat?.toString() || '',
-        lng: item.coordinates?.lng?.toString() || ''
+        coordinates: item.coordinates || null
       });
     } catch (err) {
       toast.error('Failed to load item');
