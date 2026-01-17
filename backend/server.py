@@ -68,6 +68,41 @@ async def get_status_checks():
     
     return status_checks
 
+# JSON Server Proxy Routes
+JSON_SERVER_URL = "http://localhost:3001"
+
+@api_router.get("/items")
+async def get_items():
+    async with httpx.AsyncClient() as client:
+        response = await client.get(f"{JSON_SERVER_URL}/items")
+        return JSONResponse(content=response.json())
+
+@api_router.get("/items/{item_id}")
+async def get_item(item_id: str):
+    async with httpx.AsyncClient() as client:
+        response = await client.get(f"{JSON_SERVER_URL}/items/{item_id}")
+        return JSONResponse(content=response.json())
+
+@api_router.post("/items")
+async def create_item(request: Request):
+    body = await request.json()
+    async with httpx.AsyncClient() as client:
+        response = await client.post(f"{JSON_SERVER_URL}/items", json=body)
+        return JSONResponse(content=response.json(), status_code=response.status_code)
+
+@api_router.put("/items/{item_id}")
+async def update_item(item_id: str, request: Request):
+    body = await request.json()
+    async with httpx.AsyncClient() as client:
+        response = await client.put(f"{JSON_SERVER_URL}/items/{item_id}", json=body)
+        return JSONResponse(content=response.json())
+
+@api_router.delete("/items/{item_id}")
+async def delete_item(item_id: str):
+    async with httpx.AsyncClient() as client:
+        response = await client.delete(f"{JSON_SERVER_URL}/items/{item_id}")
+        return JSONResponse(content=response.json())
+
 # Include the router in the main app
 app.include_router(api_router)
 
