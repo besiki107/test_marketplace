@@ -1,7 +1,6 @@
 {
   "items": [
     {
-      "id": "1",
       "title": "Performance Brake Pads Set",
       "price": 89.99,
       "category": "Brakes",
@@ -15,11 +14,8 @@
         "ceramic"
       ],
       "location": "Los Angeles, CA",
-      "createdAt": "2025-01-10T10:00:00.000Z",
-      "coordinates": {
-        "lat": 34.0522,
-        "lng": -118.2437
-      }
+      "createdAt": "2026-01-17T17:55:51.542Z",
+      "id": "1"
     },
     {
       "id": "2",
