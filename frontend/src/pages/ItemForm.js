@@ -14,6 +14,7 @@ import {
 } from '../components/ui/select';
 import { toast } from 'sonner';
 import { Loader2 } from 'lucide-react';
+import InteractiveLocationPicker from '../components/InteractiveLocationPicker';
 
 const categories = ['Engine', 'Brakes', 'Lighting', 'Wheels', 'Exhaust', 'Electrical', 'Suspension', 'Body', 'Interior'];
 
