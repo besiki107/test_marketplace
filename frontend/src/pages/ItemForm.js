@@ -120,6 +120,10 @@ const ItemForm = () => {
       quantity: parseInt(formData.quantity),
       tags: formData.tags ? formData.tags.split(',').map(tag => tag.trim()).filter(Boolean) : [],
       location: formData.location,
+      coordinates: (formData.lat && formData.lng) ? {
+        lat: parseFloat(formData.lat),
+        lng: parseFloat(formData.lng)
+      } : undefined,
       createdAt: new Date().toISOString()
     };
 
